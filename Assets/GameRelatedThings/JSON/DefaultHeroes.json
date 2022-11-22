@@ -1,0 +1,134 @@
+{
+  "heroes": {
+    "Archer": {
+      "ID":0,
+      "Attack": 25,
+      "AttackType": 1,
+      "CritChance": 30,
+      "Defense": 10,
+      "Health": 100,
+      "Level": 1,
+      "Mana": 100,
+      "Name": "Archer",
+      "ObjectsToUse": {
+        "AttackSFXObject": 0,
+        "CharacterGameObject": 0,
+        "MoveToInitPos": 30,
+        "SkillsObject": 0,
+        "State": 0
+      },
+	  "HeroSelection": {
+		"isOwned": true,
+		"isUnlocked": true,
+		"isSelected": true
+	  },
+      "SpecAttack": 30,
+      "SpecDef": 10,
+      "Speed": 90
+    },
+    "Berserker": {
+	  "ID":1,
+      "Attack": 25,
+      "AttackType": 0,
+      "CritChance": 30,
+      "Defense": 10,
+      "Health": 100,
+      "Level": 1,
+      "Mana": 100,
+      "Name": "Berserker",
+      "ObjectsToUse": {
+        "AttackSFXObject": 1,
+        "CharacterGameObject": 1,
+        "MoveToInitPos": 30,
+        "SkillsObject": 1,
+        "State": 0
+      },
+      "HeroSelection": {
+		"isOwned": true,
+		"isUnlocked": true,
+		"isSelected": true
+	  },
+      "SpecAttack": 30,
+      "SpecDef": 10,
+      "Speed": 90
+    },
+    "Mage": {
+	  "ID":2,
+      "Attack": 25,
+      "AttackType": 1,
+      "CritChance": 30,
+      "Defense": 10,
+      "Health": 100,
+      "Level": 1,
+      "Mana": 100,
+      "Name": "Mage",
+      "ObjectsToUse": {
+        "AttackSFXObject": 2,
+        "CharacterGameObject": 2,
+        "MoveToInitPos": 30,
+        "SkillsObject": 2,
+        "State": 0
+      },
+      "HeroSelection": {
+		"isOwned": true,
+		"isUnlocked": true,
+		"isSelected": true
+	  },
+      "SpecAttack": 30,
+      "SpecDef": 10,
+      "Speed": 90
+    },
+    "Rogue": {
+	  "ID":3,
+      "Attack": 25,
+      "AttackType": 0,
+      "CritChance": 30,
+      "Defense": 10,
+      "Health": 100,
+      "Level": 1,
+      "Mana": 100,
+      "Name": "Rogue",
+      "ObjectsToUse": {
+        "AttackSFXObject": 3,
+        "CharacterGameObject": 3,
+        "MoveToInitPos": 30,
+        "SkillsObject": 3,
+        "State": 0
+      },
+      "HeroSelection": {
+		"isOwned": false,
+		"isUnlocked": false,
+		"isSelected": false
+	  },
+      "SpecAttack": 30,
+      "SpecDef": 10,
+      "Speed": 90
+    },
+    "Tank": {
+      "ID":4,
+      "Attack": 25,
+      "AttackType": 0,
+      "CritChance": 30,
+      "Defense": 10,
+      "Health": 100,
+      "Level": 1,
+      "Mana": 100,
+      "Name": "Tank",
+      "ObjectsToUse": {
+        "AttackSFXObject": 4,
+        "CharacterGameObject": 4,
+        "MoveToInitPos": 30,
+        "SkillsObject": 4,
+        "State": 0
+      },
+      "HeroSelection": {
+		"isOwned": false,
+		"isUnlocked": false,
+		"isSelected": false
+	  },
+      "SpecAttack": 30,
+      "SpecDef": 10,
+      "Speed": 90
+    }
+  }
+}

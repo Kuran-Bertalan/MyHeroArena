@@ -1,0 +1,4 @@
+repository "MyHeroArena@MyHeroArena_org@cloud"
+  path "/"
+    br "/main"
+    co "/main"
